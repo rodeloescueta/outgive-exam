@@ -1,9 +1,9 @@
 const config = {
-  pgUser: process.env.PGUSER,
-  pgHost: process.env.PGHOST,
-  pgDatabase: process.env.PGDATABASE,
-  pgPassword: process.env.PGPASSWORD,
-  pgPort: process.env.PGPORT
+  pgUser: 'postgres',
+  pgHost: 'localhost',
+  pgDatabase: 'postgres',
+  pgPassword: 'postgress_password', // typo on registring password to my docker-container-postgres(11.4)
+  pgPort: 5432
 };
 
 module.exports = config;
